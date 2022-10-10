@@ -2,7 +2,7 @@ var u = true;
 var b = "string"; // Error: Type 'string' is not assignable to type 'boolean'.
 console.log(b);
 
-
+// Some change
 // // ES5
 // var x = function(x, y) {
 //     return x * y;
