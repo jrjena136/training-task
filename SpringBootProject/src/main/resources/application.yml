@@ -1,0 +1,20 @@
+spring:
+  enterprise-api:
+    datasource:
+      jdbcUrl: jdbc:mysql://localhost:3306/sports_db
+      driverClassName: com.mysql.cj.jdbc.Driver
+      username: root
+      password: 5Nehal@1508
+    jpa:
+      properties:
+        hibernate:
+          dialect: org.hibernate.dialect.MySQL5Dialect
+          jdbc.lob:
+            non_contextual_creation: 'true'
+          current_session_context_class: thread
+          format_sql: 'true'
+      hibernate:
+        ddl-auto: update
+      show-sql: 'true'
+      open-in-view: false
+
