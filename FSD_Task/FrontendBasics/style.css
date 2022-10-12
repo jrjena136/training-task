@@ -1,0 +1,22 @@
+body {
+
+    background-color: red;
+}
+
+.hea {
+
+    color: green;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    font-weight: bold;
+    margin-top: 15%;
+}
+
+.for {
+
+    font-weight: 200;
+    font-family: sans-serif;
+
+
+}
